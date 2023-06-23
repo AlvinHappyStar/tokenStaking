@@ -2,8 +2,8 @@ import { BIG_TEN } from 'utils/bigNumber'
 import { parseUnits } from 'ethers/lib/utils'
 
 export const INFURA_ID = 'PkSg__OS-7f9zA6VGKy5UDEx1V28aD5-'
-export const RPC_URL = 'https://bsc-dataseed1.ninicoin.io'
-export const CHAIN = 56
+export const RPC_URL = 'https://rpc.ankr.com/eth_goerli'
+export const CHAIN = 5
 
 export const NFT_IPFS = 'https://newgate.mypinata.cloud/ipfs/Qma3pitoFVPR8AvP2UepPjvn6wLwG6q4KioV1ULQ5sHRcA/'
 

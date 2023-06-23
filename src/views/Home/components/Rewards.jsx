@@ -72,6 +72,8 @@ const Rewards = (props) => {
   const web3Context = useWeb3Context()
   const balance = useBalances();
 
+  
+
   const handleClaim = async () => {
     let pid = poolID;
     

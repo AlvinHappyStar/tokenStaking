@@ -25,6 +25,7 @@ export const fetchStakingDataSync = createAsyncThunk<StakingDataResponse, {poolN
     const stakedAmount = await fetchStakedAmount(poolNumber, account)
     const walletBalance = await fetchStakingTokenBalances(account)
     const pendingReward = await fetchPendingReward(poolNumber, account)
+    console.log("pending", pendingReward)
     return {
       totalStakedBalance,
       stakedAmount,
